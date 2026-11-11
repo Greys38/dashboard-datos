@@ -1,0 +1,10 @@
+[
+  { "id": 1, "producto": "Laptop Pro 15", "categoria": "Laptops", "ventas": 120, "ingresos": 144000, "region": "Norte" },
+  { "id": 2, "producto": "Monitor 4K 27", "categoria": "Pantallas", "ventas": 85, "ingresos": 38250, "region": "Centro" },
+  { "id": 3, "producto": "Teclado Mecánico", "categoria": "Periféricos", "ventas": 310, "ingresos": 24800, "region": "Sur" },
+  { "id": 4, "producto": "Mouse Gamer", "categoria": "Periféricos", "ventas": 450, "ingresos": 22500, "region": "Norte" },
+  { "id": 5, "producto": "Audífonos Bluetooth", "categoria": "Audio", "ventas": 210, "ingresos": 31500, "region": "Centro" },
+  { "id": 6, "producto": "Silla Ergonómica", "categoria": "Mobiliario", "ventas": 65, "ingresos": 19500, "region": "Sur" },
+  { "id": 7, "producto": "Disco SSD 1TB", "categoria": "Almacenamiento", "ventas": 190, "ingresos": 22800, "region": "Norte" },
+  { "id": 8, "producto": "Webcam HD", "categoria": "Accesorios", "ventas": 140, "ingresos": 11200, "region": "Centro" }
+]

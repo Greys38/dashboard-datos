@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 20px;
+}
+
+.contenedor-principal {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.grid-metricas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.tarjeta-metrica {
+  background: #ffffff;
+  padding: 16px 20px;
+  border-radius: 8px;
+  border-left: 4px solid #2563eb;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.tarjeta-titulo {
+  margin: 0 0 8px 0;
+  font-size: 0.85rem;
+  color: #6b7280;
+  text-transform: uppercase;
+}
+
+.tarjeta-valor {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #111827;
+}
+
+.tarjeta-subtitulo {
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+
+.tabla-seccion {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.tabla-contenedor {
+  overflow-x: auto;
+}
+
+.tabla-datos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.tabla-datos th, .tabla-datos td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.tabla-datos th {
+  background-color: #f9fafb;
+  color: #374151;
+}
+
+.col-resaltada {
+  font-weight: 600;
+}
+
+.tag-categoria {
+  background-color: #e0f2fe;
+  color: #0369a1;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
